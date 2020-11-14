@@ -1,0 +1,44 @@
+--------------------構成: rpg - Win32 Release--------------------
+Begining build with project "C:\Program Files\DevStudio\MyProjects\RPG\rpg.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /ML /W3 /GX /O2 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp".\Release/rpg.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo".\Release/rpg.res" /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o".\Release/rpg.bsc" "
+			"COFF Linker for 80x86" with flags "dxguid.lib ddraw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/rpg.pdb" /machine:I386 /out:".\Release/rpg.exe" "
+			"ｶｽﾀﾑ ﾋﾞﾙﾄﾞ" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP6313.TMP" with contents </nologo /ML /W3 /GX /O2 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp".\Release/rpg.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\Program Files\DevStudio\MyProjects\RPG\rpg.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6313.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP6314.TMP" with contents <dxguid.lib ddraw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/rpg.pdb" /machine:I386 /out:".\Release/rpg.exe" 
+".\Release\rpg.obj"
+".\Release\rpg.res">
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP6314.TMP" 
+ｺﾝﾊﾟｲﾙ中...
+rpg.cpp
+C:\Program Files\DevStudio\MyProjects\RPG\vbg.h(346) : warning C4101: 'bg_dy_max' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\vbg.h(346) : warning C4101: 'bg_dx_max' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\vwind.h(142) : warning C4101: 'i' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\vwind.h(174) : warning C4101: 'rect' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\vwind.h(244) : warning C4101: 'rect' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\snapshot.h(55) : warning C4101: 'hWnd_snap' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\snapshot.h(55) : warning C4101: 'hBmpOld' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\rpg.cpp(159) : warning C4101: 't' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\rpg.cpp(213) : warning C4101: 't' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\rpg.cpp(261) : warning C4101: 't' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\rpg.cpp(300) : warning C4101: 'hBruch' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\rpg.cpp(333) : warning C4101: 't' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\rpg.cpp(354) : warning C4101: 't' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\rpg.cpp(393) : warning C4101: 't' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\rpg.cpp(637) : warning C4101: 'hBruch' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\RPG\rpg.cpp(824) : warning C4101: 'i' : ﾛｰｶﾙ変数は 1 度も使われません。
+ﾘﾝｸ中...
+
+
+
+rpg.exe - ｴﾗｰ 0、警告 16

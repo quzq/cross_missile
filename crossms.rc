@@ -1,0 +1,20 @@
+#include "resource.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "ddpazzle.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "bgwind01.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "crossms.ico"
+
